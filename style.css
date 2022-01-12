@@ -22,7 +22,7 @@ main {
     padding: 33px 0px 54px 33px;
 }
 .player {
-    padding: 33px;
+    margin-left: 30px;
     display: flex;
     align-items: center;
 }
@@ -41,4 +41,111 @@ hr.line {
 /*-------------
     top blog
  -------------*/
- 
+ .top-blog h2 {
+     margin-bottom: 30px  ;
+     margin-left: 30px;
+     font-size: 24px;
+     font-family: 'Poppins', sans-serif;
+ }
+ .blogs {
+     justify-content: center;
+     align-items: center;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     row-gap: 17px;
+ }
+ .blog {
+     display: flex;
+ }
+ .blog img {
+     width: 117px;
+     height: 117px;
+ }
+ .blog-image {
+     margin-left: 30px;
+ }
+ .blog-info {
+     margin-left: 16px;
+ }
+ .blog p {
+    margin-bottom: 30px  ;
+    margin-left: 30px;
+     margin-top: 6px;
+     color: #9F9F9F;
+ }
+ .blog span {
+     color: #562EFF;
+ }
+ /* latest course */
+ .title-courses {
+     margin-top: 27px;
+    
+ }
+ .courses {
+     
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+ }
+ .ltc {
+     margin-left: 27px;
+     font-size: 24px;
+     font-family: 'Poppins', sans-serif;
+ }
+ .course {
+     margin-left: 33px;
+     margin-bottom: 28px;
+ }
+ .course img {
+     width: 224px;
+     height: 104px;
+ }
+ .star {
+     margin-right: 10px;
+ }
+ .rating {
+     display: flex;
+ }
+ .duration {
+     margin-left: 57px;
+     background-color: #FFE4E8;
+     color: #ED6B4F;
+ }
+ .checked {
+     color: orange;
+ }
+ /*----------------
+   media quary 
+   -------------*/
+   /* mobile width */
+@media only screen and (max-width:688px) {
+    body {
+        padding: 0px;
+        width: 100%;
+    }
+    .top-player {
+        display: block;
+    }
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .courses,.blogs {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+/* tablet device */
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+    body {
+        padding: 0px;
+        width: 100%;
+    }
+    .top-player {
+        display: block;
+    }
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .courses,.blogs {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
