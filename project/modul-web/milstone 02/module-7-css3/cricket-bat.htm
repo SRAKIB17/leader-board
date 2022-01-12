@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bat {
+            border: 1px solid blue;
+        }
+        .bat img{
+            width: 200px;
+            
+            transform-origin: top right;
+            transition: all .2s ease;
+         
+        }
+        .bat:hover img{
+            transform: rotate(-60deg);
+        }
+        .ball {
+            width: 50px;
+            height: 50px;
+            background-color:red ;
+            position: relative;
+            left: 205px;
+            bottom: 20px;
+            border-radius: 35px;
+            transition: all 2s ease-out 0.2s;
+
+        }
+        .bat:hover .ball {
+            left: 590px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bat"><img src="image/kindpng_1091306.png" alt=""><div class="ball"></div></div>
+    
+    
+</body>
+</html>

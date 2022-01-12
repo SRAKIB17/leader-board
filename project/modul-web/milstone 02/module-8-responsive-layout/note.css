@@ -1,0 +1,20 @@
+website layout.{
+ ,
+align-item: ; vertical
+justify-content:center/ evenly; :horizontal..poperty aligns the flexible container's  items when the items do not use all avaailable space on the main-axis. only chid gulo. but natiputi gulo na.
+
+
+
+getting started with css
+grid and flex: 
+The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
+grid: responcse;when height, width thaka jabe na..
+}
+
+media query is used to apply a set of styles based on the browser's characteristics including width, height ,or screen resolution.
+max-width: when screen width (0 - max-width value) then it works
+min-width: when screen width (min-width - upper) then it works,. @media (max-width:){
+        
+    }
+Tip: the percentage depends on the parent element..
+toutorial republic css3 properties

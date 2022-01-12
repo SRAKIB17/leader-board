@@ -1,0 +1,77 @@
+.name ,.name {
+    Selects all elements with both name1 and name2 set within its class attribute
+}
+
+.class1 .class2 {
+    parent: class1
+    child: class2
+    class1 এর ভিতরে class2 আছে। class1 এর class2 সমস্থ select হবে।
+}
+
+.parent > .child {
+    /* parent এর নির্দিষ্ট child select করার জন্য  */
+    /* যে element সরাসরি নির্দিষ্ট পিতামাতার সন্তান নয়, select করা হয় না৷ */
+}
+
+element element {
+    /* <div> উপাদানের ভিতরে থাকা প্রতিটি <p> উপাদান নির্বাচন এবং স্টাইল করুন: */
+}
+
+element.class (div.btn) {
+    css declarations;
+}
+
+#id {
+    /* নির্বাচক শৈলী নির্দিষ্ট আইডি সহ উপাদান */
+}
+
+* {
+    /* *নির্বাচক সব উপাদান নির্বাচন করে। */
+    /* * নির্বাচক অন্য উপাদানের ভিতরেও সমস্ত উপাদান নির্বাচন করতে পারে */
+}
+
+element(p) {
+    css declarations;
+}
+
+
+element (div) + element (p) {
+    /* প্রথম <p> উপাদানটি নির্বাচন করুন এবং স্টাইল করুন যেটি <div> উপাদানের পরপরই স্থাপন করা হয়: */
+}
+
+[attribute] {
+    /* The [attribute] selector is used to select elements with the specified attribute. */
+    /* a[target] {
+        background-color: yellow;
+      } */
+}
+[attribute = value] {
+    /* input[type=text]:focus {
+        width: 250px;
+      }
+ */
+}
+[attribute ~= value] {
+    /* [title~=flower] {
+        background-color: yellow;
+      } */
+  }
+[attribute |= value] {
+    /* সিলেক্টরটি নির্দিষ্ট মান দিয়ে শুরু করে নির্দিষ্ট বৈশিষ্ট্য সহ উপাদান নির্বাচন করতে ব্যবহৃত হয়। */
+    /* [lang|=en] {
+        background-color: yellow;
+      } */
+  }
+
+[attribute ^= value] {
+    /* নির্বাচক প্রতিটি উপাদানের সাথে মেলে যার বৈশিষ্ট্য মান একটি নির্দিষ্ট মান দিয়ে শুরু হয় । আংশিক বা পুরটাই মিলে তাহলে কাজ করবে।*/
+    /* [class^="test-exam"] {
+        background: #ffff00;
+      } */
+  }
+  [attribute $= value] {
+    নির্বাচক প্রতিটি উপাদানের সাথে মেলে যার attribute value একটি নির্দিষ্ট মান দিয়ে শেষ হয়।
+  }
+  [attribute *= value] {
+    selector match করে যার বৈশিষ্ট্য মান একটি নির্দিষ্ট অংশ মেলে তখনি কাজ করে । শেষ, মাঝ, প্রথম...
+  }

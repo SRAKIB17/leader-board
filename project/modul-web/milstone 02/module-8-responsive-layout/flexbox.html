@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .container {
+            border: 1px solid red;
+            display: flex;
+            height: 400px;
+            align-items: flex-end;
+            justify-content:flex-end;
+        }
+        .box1 {
+            
+            
+            width: 200px;
+            height: 200px;
+            border: 1px solid springgreen;
+        }
+        .box2 {
+            
+            width: 200px;
+            height: 200px;
+            border: 1px solid springgreen;
+        }
+        .box3 {
+            
+            width: 200px;
+            height: 200px;
+            border: 1px solid springgreen;
+        }
+        .box4 {
+            
+            flex-grow: 1;
+            height: 200px;
+            border: 1px solid springgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>flexbox related:</h1>
+    <div class="container">
+        <div class="box1">
+            <h1>box-1</h1>
+        </div>
+        <div class="box2">
+            <h1>box-2</h1>
+        </div>
+        <div class="box3">
+            <h1>box-3</h1>
+        </div>
+        <div class="box4">
+            <h1>box-4</h1>
+        </div>
+    </div>
+</body>
+</html>

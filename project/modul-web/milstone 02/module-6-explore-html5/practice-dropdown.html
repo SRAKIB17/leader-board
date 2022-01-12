@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        ul li {
+            margin: 10px;
+        }
+        ul li:hover {
+            background-color: gray;
+        }
+        ul a {
+            text-decoration: none;
+            font-size: 20px;
+            
+        }
+        nav ul ul{
+            display: none;
+            
+        }
+        nav ul li:hover ul {
+            display: block;
+            position: absolute;
+        }
+        .vv {
+            margin-right: 100px;
+            position: absolute;
+            right: 65%;
+            margin-right: 100px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="">Link - 1</a></li>
+            <li><a href="">Link - 2</a></li>
+            <li><a href="">Link - 3</a></li>
+            <li><a href="">Link - 4</a>
+            <ul class="vv">
+                <li><a href="">link 11 - 1</a></li>
+                <li><a href="">link 11 - 2</a></li>
+                <li><a href="">link 11 - 3</a></li>
+                <li><a href="">link 11 - 4</a></li>
+                <li><a href="">link 11 - 5</a></li>
+            </ul></li>
+        </ul>
+    </nav>
+    <h1>Welcom my site...</h1>
+</body>
+</html>

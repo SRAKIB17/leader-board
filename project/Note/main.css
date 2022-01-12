@@ -1,0 +1,170 @@
+
+
+CSS Color: 
+    rgb(red, green, blue)
+    rgba(red, green, blue, alpha) alpha = 0.0 (fully transparent) - 1.0 (not transparent at all);
+    Hex: #ff6347;
+    HSL(hue, saturation, lightness): hsl(39, 100%, 50%)
+        hue = 0 থেকে 360 পর্যন্ত রঙের চাকার একটি ডিগ্রী। 0 হল লাল, 120 হল সবুজ এবং 240 হল নীল।
+
+        saturation = একটি শতাংশ মান, 0% মানে ধূসর শেড, এবং 100% হল সম্পূর্ণ রঙ।
+                     স্যাচুরেশনকে রঙের তীব্রতা হিসাবে বর্ণনা করা যেতে পারে।
+
+                     100% বিশুদ্ধ রঙ, ধূসর কোন ছায়া নেই
+
+                     50% 50% ধূসর, কিন্তু আপনি এখনও রঙ দেখতে পারেন।
+
+                     0% সম্পূর্ণ ধূসর, আপনি আর রঙ দেখতে পারবেন না।
+        
+        lightness =  একটি শতাংশ, 0% কালো, 50% আলো বা অন্ধকার নয়, 100% সাদা
+                     একটি রঙের হালকাতা বর্ণনা করা যেতে পারে যে আপনি কতটা আলো দিতে চান রঙ দিতে, যেখানে 0% মানে আলো নেই (কালো), 50% মানে 50% আলো (অন্ধকার বা আলোও নয়) 100% মানে সম্পূর্ণ হালকাতা (সাদা)।
+    hsla(hue,saturation, lightness, alpha): 
+CSS color poperty: 
+    color: ;
+
+
+width height: 
+    height: ;
+    width: ;
+    max-width: ; >>প্রপার্টি একটি উপাদানের সর্বোচ্চ প্রস্থ সেট করতে ব্যবহৃত হয় ;
+    max-height: ; >>একটি উপাদানের সর্বোচ্চ উচ্চতা সেট করে
+    min-width: ; >>একটি উপাদানের সর্বনিম্ন উচ্চতা সেট করে
+    min-height: ; >>একটি উপাদানের সর্বনিম্ন প্রস্থ সেট করে
+
+Css Font:
+    font: font-style font-variant font-weight font-size/line-height font-family | caption/ icon/ menu/ message-box/ small-caption/ status-bar;
+
+    Font Pairings: একের অধিক ফন্ট 
+    font-size:  লেখার আকার সেট করে।
+        Absolute size:
+            পাঠ্যটিকে একটি নির্দিষ্ট আকারে সেট করে
+            কোনো ব্যবহারকারীকে সমস্ত ব্রাউজারে পাঠ্যের আকার পরিবর্তন করার অনুমতি দেয় না (অভিগম্যতার কারণে খারাপ)
+            যখন আউটপুটের ফিজিক্যাল সাইজ জানা যায় তখন অ্যাবসলুট সাইজ উপযোগী
+        Relative size:
+            আশেপাশের উপাদানের তুলনায় আকার নির্ধারণ করে
+            একটি ব্যবহারকারীকে ব্রাউজারে পাঠ্যের আকার পরিবর্তন করার অনুমতি দেয়
+    font-family: ; একটি "ফলব্যাক" সিস্টেম হিসাবে বিভিন্ন হরফ নামে রাখা উচিত, ব্রাউজার / অপারেটিং সিস্টেমগুলি মধ্যে সর্বোচ্চ সামঞ্জস্য নিশ্চিত করতে হবে।
+    The following list are the best web safe fonts for HTML and CSS:
+    Arial (sans-serif)
+    Verdana (sans-serif)
+    Helvetica (sans-serif)
+    Tahoma (sans-serif)
+    Trebuchet MS (sans-serif)
+    Times New Roman (serif)
+    Georgia (serif)
+    Garamond (serif)
+    Courier New (monospace)
+    Brush Script MT (cursive)
+    font-style: ;
+        normal : পাঠ্যটি স্বাভাবিকভাবে দেখানো হয়
+        italic:  টেক্সট তির্যক দেখানো হয়
+        oblique: পাঠ্যটি "ঝুঁকে পড়া" (তির্যক তির্যক অনুরূপ, কিন্তু কম সমর্থিত)
+    font-weight: ;একটি ফন্ট ওজন নির্দিষ্ট করে:
+        normal: Defines normal characters. This is default	
+        bold:	Defines thick characters	
+        bolder:	Defines thicker characters	
+        lighter:	Defines lighter (হালকা) characters	
+        100
+        200
+        300
+        400
+        500
+        600
+        700
+        800
+        900:	Defines from thin to thick characters. 400 is the same as normal, and 700 is the same as bold	
+    font-variant: normal/ small-caps;
+        কিনা তা নির্দিষ্ট বা না একটি টেক্সট একটি ছোট-বড় হাতের অক্ষরে প্রদর্শিত হওয়া উচিত ফন্ট।
+        normal	The browser displays a normal font. This is default	
+        small-caps	The browser displays a small-caps font
+    font-variant-caps: normal/ small-caps/ all-small-caps/ petite-caps/all-petite-caps/   unicase/ titling-caps;
+        normal	Deactivates the use of alternate glyphs
+        small-caps	Displays small capitals
+        all-small-caps	Displays small capitals for both upper and lowercase letters
+        petite-caps	Displays petite capitals
+        all-petite-caps	Displays petite capitals for both upper and lowercase letters
+        unicase	Displays a mix of small capitals for uppercase letters with normal lowercase letters
+        titling-caps	Displays titling capitals
+:
+
+Outline: উপাদানের সীমানার বাইরে আঁকা একটি রেখা।
+    1.outline-style: dotted - একটি বিন্দুযুক্ত রূপরেখা সংজ্ঞায়িত করে
+                     dashed - একটি ড্যাশ করা রূপরেখা সংজ্ঞায়িত করে
+                     solid - একটি কঠিন রূপরেখা সংজ্ঞায়িত করে
+                     double - একটি ডবল রূপরেখা সংজ্ঞায়িত করে
+                     groove - একটি 3D খাঁজকাটা রূপরেখা সংজ্ঞায়িত করে
+                     ridge - একটি 3D রিজড আউটলাইন সংজ্ঞায়িত করে
+                     inset - একটি 3D ইনসেট রূপরেখা সংজ্ঞায়িত করে
+                     outset - একটি 3D আউটসেট রূপরেখা সংজ্ঞায়িত করে
+                     none - কোন রূপরেখা সংজ্ঞায়িত করে না
+                     hidden - একটি লুকানো রূপরেখা সংজ্ঞায়িত করে
+    2.outline-color: value; 
+    3.outline-width: value;
+    4.outline-offset: value; সম্পত্তি একটি রূপরেখা এবং প্রান্ত / একটি উপাদান সীমানা মধ্যে স্থান যোগ করা হয়েছে। একটি উপাদান এবং এর রূপরেখার মধ্যে স্থানটি স্বচ্ছ।
+    5.outline: outline-width outline-style (প্রয়োজনীয়) outline-color সম্পত্তি এক, দুই, বা তিন মান উপরের তালিকায় থেকে নির্দিষ্ট করা হয়েছে। মান ক্রম কোন ব্যাপার না.
+    
+
+
+    thin (typically 1px)
+    medium (typically 3px)
+    thick (typically 5px)
+    A specific size (in px, pt, cm, em, etc)
+    a:link - একটি সাধারণ, অনাকাঙ্ক্ষিত লিঙ্ক
+    a:visited - ব্যবহারকারী একটি লিঙ্ক পরিদর্শন করেছেন
+    a:hover - একটি লিঙ্ক যখন ব্যবহারকারী এটির উপর মাউস করে
+    a:active - ক্লিক করার সাথে সাথে একটি লিঙ্ক
+
+  
+
+    w3school:
+
+    
+    module
+    div*3>h1 >>  emmet cheat shit
+div*4>h1{jjj$} >>>
+
+first-child:
+
+last-child:
+nth-child(n){
+    attribute:
+}
+float: none/ left/ right; যে আগে থাকবে সে আগে প্রাধান্য পাবে। সিরিয়াল মেইনটেইন করবে। যে element থেকে float start করবো ঐ element থেকে all elemrnt float (পুরটাই) হবে।
+clear:  none(default) / left/ right/ both; 
+পরবর্তী element গুলোকে কন্ট্রোল করে
+controls the flow next to floated elements.
+none	Default. The element is not pushed below left or right floated elements
+left	The element is pushed below left floated elements
+right	The element is pushed below right floated elements
+both	The element is pushed below both left and right floated elements.
+
+flex:
+    display: flex; parent এর child গুলোকে flexible(নমনীয়) ভাবে display করবে।
+    flex:  flex-grow flex-shrink flex-basis; 
+        flex-grow: number(default value - 0);
+            বাকি নমনীয় আইটেমের তুলনায় নির্দিষ্ট আইটেমটি   কতটা বাড়বে তা নির্দিষ্ট করে এমন একটি সংখ্যা
+        flex-shrink: number;
+            same container থাকা বাকি নমনীয় আইটেমের তুলনায় আইটেমটি কীভাবে সঙ্কুচিত হবে।
+        flex-basis: number(A length unit or percentage);
+            একটি নমনীয় আইটেমের প্রাথমিক দৈর্ঘ্য নির্দিষ্ট করে
+    flex-flow: flex-direction flex-wrap;
+        আইটেম গুলোকে flow কিভাবে করবে;
+
+        flex-direction: row(displayed horizontally)/ row-reverse (Same as row, but in reverse order)/ column(displayed vertically)/ column-reverse(Same as column, but in reverse order);
+        flex-warp: nowrap/ wrap(items will wrap)/ wrap-reverse (items will wrap and reverse order);
+Grid: parent এর child গুলোকে flexible(নমনীয়) ভাবে display করবে।
+    display: grid;
+    gap: row-gap column-gap;
+        সারি ও কলামের মধ্যে ফাঁক আকার নির্দেশ করে।।
+        grid-row-gap: length;সারি মধ্যে ফাঁক 
+        grid-column-gap: length; কলাম মধ্যে ফাঁক 
+    grid-template-rows: none/ auto/ max-content/ min-content/ length/ repeat(row, height);
+        একটি গ্রিড লেআউট সারির সংখ্যা (এবং উচ্চতা) নির্দিষ্ট করে।
+
+    grid-template-columns: none/ auto/ max-content/min-content/ length/ repeat(colulmns, width(1fr))
+        একটি গ্রিড লেআউট কলামের সংখ্যা (এবং প্রস্থ) নির্দিষ্ট করে।
+
+        grid-template-areas: none/ itemnames;
+        grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end | itemname;
+    
+order: number;একই ধারক ভিতরে নমনীয় আইটেম বাকি একটি নমনীয় আইটেমটি আপেক্ষিক ক্রম নির্দিষ্ট করে।

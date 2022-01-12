@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album</title>
+    <style>
+        body {
+            width: 100%;
+            margin: 20px;
+            
+        }
+        .flex {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: center;
+            grid-gap: 30px;
+            grid-template-rows: repeat(6,1fr);
+        }
+        .album {
+            border: 1px solid firebrick;
+            border-radius: 20px;
+            position: relative;
+            height: 240px;
+        }
+        .photo {
+            overflow: hidden;
+         
+        }
+        .photo img {
+            width: 1fr;
+            height: 238px;
+            border-radius: 20px;
+            
+        }
+        .photo:hover img {
+            opacity: 0.4;
+            border-radius: 20px;
+            transform: scale(1.3) rotate(360deg);
+            transition: transform 1s ease-in-out;
+        }
+        .photo:hover .details{
+            display: block;
+            border-radius: 20px;
+
+        }
+        .details {
+            background-color: rgba(255, 0, 255, 0.116);
+            display: none;
+            font-weight: 700;
+            position: absolute;
+            top: 2px;
+            padding: 0 2px;
+            border-radius: 20px;
+            width: fit-content;
+            height: 238px;
+            text-align: justify;
+            overflow: scroll;
+            overflow-x: hidden;
+            
+        }
+        .photo .details h2{
+            background-color: black;
+            color: whitesmoke;
+            text-align: center;
+        }
+        </style>
+
+</head>
+<body>
+<div class="flex">
+    <div class="album">
+        <div class="photo">
+            <img src="/panda 2.png" alt="">
+            <div class="details">
+                <h2>See Panda</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, saepe. Adipisci, accusantium, neque perferendis corporis obcaecati vitae sed necessitatibus exercitationem repellat aspernatur voluptatem iste temporibus hic in voluptas beatae. Ipsa aspernatur praesentium, quis magni consequuntur eum culpa repellat possimus aliquid. Vitae, animi a natus eligendi odit non nobis accusantium quas, deleniti corrupti porro assumenda deserunt voluptate vero ullam dolorem excepturi quam! Dignissimos enim, at repudiandae et voluptates voluptatem adipisci? Eius fugiat tempore in fugit ullam. Aut architecto corrupti magnam natus esse voluptatibus, eius qui similique non, eum cum necessitatibus quasi. Expedita quo, iure suscipit assumenda dolores perspiciatis nam enim sequi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="album">
+        <div class="photo">
+            <img src="/panda 2.png" alt="">
+            <div class="details">
+                <h2>See Panda</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, saepe. Adipisci, accusantium, neque perferendis corporis obcaecati vitae sed necessitatibus exercitationem repellat aspernatur voluptatem iste temporibus hic in voluptas beatae. Ipsa aspernatur praesentium, quis magni consequuntur eum culpa repellat possimus aliquid. Vitae, animi a natus eligendi odit non nobis accusantium quas, deleniti corrupti porro assumenda deserunt voluptate vero ullam dolorem excepturi quam! Dignissimos enim, at repudiandae et voluptates voluptatem adipisci? Eius fugiat tempore in fugit ullam. Aut architecto corrupti magnam natus esse voluptatibus, eius qui similique non, eum cum necessitatibus quasi. Expedita quo, iure suscipit assumenda dolores perspiciatis nam enim sequi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="album">
+        <div class="photo">
+            <img src="/panda 2.png" alt="">
+            <div class="details">
+                <h2>See Panda</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, saepe. Adipisci, accusantium, neque perferendis corporis obcaecati vitae sed necessitatibus exercitationem repellat aspernatur voluptatem iste temporibus hic in voluptas beatae. Ipsa aspernatur praesentium, quis magni consequuntur eum culpa repellat possimus aliquid. Vitae, animi a natus eligendi odit non nobis accusantium quas, deleniti corrupti porro assumenda deserunt voluptate vero ullam dolorem excepturi quam! Dignissimos enim, at repudiandae et voluptates voluptatem adipisci? Eius fugiat tempore in fugit ullam. Aut architecto corrupti magnam natus esse voluptatibus, eius qui similique non, eum cum necessitatibus quasi. Expedita quo, iure suscipit assumenda dolores perspiciatis nam enim sequi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="album">
+        <div class="photo">
+            <img src="/panda 2.png" alt="">
+            <div class="details">
+                <h2>See Panda</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, saepe. Adipisci, accusantium, neque perferendis corporis obcaecati vitae sed necessitatibus exercitationem repellat aspernatur voluptatem iste temporibus hic in voluptas beatae. Ipsa aspernatur praesentium, quis magni consequuntur eum culpa repellat possimus aliquid. Vitae, animi a natus eligendi odit non nobis accusantium quas, deleniti corrupti porro assumenda deserunt voluptate vero ullam dolorem excepturi quam! Dignissimos enim, at repudiandae et voluptates voluptatem adipisci? Eius fugiat tempore in fugit ullam. Aut architecto corrupti magnam natus esse voluptatibus, eius qui similique non, eum cum necessitatibus quasi. Expedita quo, iure suscipit assumenda dolores perspiciatis nam enim sequi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="album">
+        <div class="photo">
+            <img src="/panda 2.png" alt="">
+            <div class="details">
+                <h2>See Panda</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, saepe. Adipisci, accusantium, neque perferendis corporis obcaecati vitae sed necessitatibus exercitationem repellat aspernatur voluptatem iste temporibus hic in voluptas beatae. Ipsa aspernatur praesentium, quis magni consequuntur eum culpa repellat possimus aliquid. Vitae, animi a natus eligendi odit non nobis accusantium quas, deleniti corrupti porro assumenda deserunt voluptate vero ullam dolorem excepturi quam! Dignissimos enim, at repudiandae et voluptates voluptatem adipisci? Eius fugiat tempore in fugit ullam. Aut architecto corrupti magnam natus esse voluptatibus, eius qui similique non, eum cum necessitatibus quasi. Expedita quo, iure suscipit assumenda dolores perspiciatis nam enim sequi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="album">
+        <div class="photo">
+            <img src="/panda 2.png" alt="">
+            <div class="details">
+                <h2>See Panda</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, saepe. Adipisci, accusantium, neque perferendis corporis obcaecati vitae sed necessitatibus exercitationem repellat aspernatur voluptatem iste temporibus hic in voluptas beatae. Ipsa aspernatur praesentium, quis magni consequuntur eum culpa repellat possimus aliquid. Vitae, animi a natus eligendi odit non nobis accusantium quas, deleniti corrupti porro assumenda deserunt voluptate vero ullam dolorem excepturi quam! Dignissimos enim, at repudiandae et voluptates voluptatem adipisci? Eius fugiat tempore in fugit ullam. Aut architecto corrupti magnam natus esse voluptatibus, eius qui similique non, eum cum necessitatibus quasi. Expedita quo, iure suscipit assumenda dolores perspiciatis nam enim sequi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="album">
+        <div class="photo">
+            <img src="/panda 2.png" alt="">
+            <div class="details">
+                <h2>See Panda</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, saepe. Adipisci, accusantium, neque perferendis corporis obcaecati vitae sed necessitatibus exercitationem repellat aspernatur voluptatem iste temporibus hic in voluptas beatae. Ipsa aspernatur praesentium, quis magni consequuntur eum culpa repellat possimus aliquid. Vitae, animi a natus eligendi odit non nobis accusantium quas, deleniti corrupti porro assumenda deserunt voluptate vero ullam dolorem excepturi quam! Dignissimos enim, at repudiandae et voluptates voluptatem adipisci? Eius fugiat tempore in fugit ullam. Aut architecto corrupti magnam natus esse voluptatibus, eius qui similique non, eum cum necessitatibus quasi. Expedita quo, iure suscipit assumenda dolores perspiciatis nam enim sequi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="album">
+        <div class="photo">
+            <img src="/panda 2.png" alt="">
+            <div class="details">
+                <h2>See Panda</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, saepe. Adipisci, accusantium, neque perferendis corporis obcaecati vitae sed necessitatibus exercitationem repellat aspernatur voluptatem iste temporibus hic in voluptas beatae. Ipsa aspernatur praesentium, quis magni consequuntur eum culpa repellat possimus aliquid. Vitae, animi a natus eligendi odit non nobis accusantium quas, deleniti corrupti porro assumenda deserunt voluptate vero ullam dolorem excepturi quam! Dignissimos enim, at repudiandae et voluptates voluptatem adipisci? Eius fugiat tempore in fugit ullam. Aut architecto corrupti magnam natus esse voluptatibus, eius qui similique non, eum cum necessitatibus quasi. Expedita quo, iure suscipit assumenda dolores perspiciatis nam enim sequi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="album">
+        <div class="photo">
+            <img src="/panda 2.png" alt="">
+            <div class="details">
+                <h2>See Panda</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, saepe. Adipisci, accusantium, neque perferendis corporis obcaecati vitae sed necessitatibus exercitationem repellat aspernatur voluptatem iste temporibus hic in voluptas beatae. Ipsa aspernatur praesentium, quis magni consequuntur eum culpa repellat possimus aliquid. Vitae, animi a natus eligendi odit non nobis accusantium quas, deleniti corrupti porro assumenda deserunt voluptate vero ullam dolorem excepturi quam! Dignissimos enim, at repudiandae et voluptates voluptatem adipisci? Eius fugiat tempore in fugit ullam. Aut architecto corrupti magnam natus esse voluptatibus, eius qui similique non, eum cum necessitatibus quasi. Expedita quo, iure suscipit assumenda dolores perspiciatis nam enim sequi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="album">
+        <div class="photo">
+            <img src="/panda 2.png" alt="">
+            <div class="details">
+                <h2>See Panda</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, saepe. Adipisci, accusantium, neque perferendis corporis obcaecati vitae sed necessitatibus exercitationem repellat aspernatur voluptatem iste temporibus hic in voluptas beatae. Ipsa aspernatur praesentium, quis magni consequuntur eum culpa repellat possimus aliquid. Vitae, animi a natus eligendi odit non nobis accusantium quas, deleniti corrupti porro assumenda deserunt voluptate vero ullam dolorem excepturi quam! Dignissimos enim, at repudiandae et voluptates voluptatem adipisci? Eius fugiat tempore in fugit ullam. Aut architecto corrupti magnam natus esse voluptatibus, eius qui similique non, eum cum necessitatibus quasi. Expedita quo, iure suscipit assumenda dolores perspiciatis nam enim sequi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="album">
+        <div class="photo">
+            <img src="/panda 2.png" alt="">
+            <div class="details">
+                <h2>See Panda</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, saepe. Adipisci, accusantium, neque perferendis corporis obcaecati vitae sed necessitatibus exercitationem repellat aspernatur voluptatem iste temporibus hic in voluptas beatae. Ipsa aspernatur praesentium, quis magni consequuntur eum culpa repellat possimus aliquid. Vitae, animi a natus eligendi odit non nobis accusantium quas, deleniti corrupti porro assumenda deserunt voluptate vero ullam dolorem excepturi quam! Dignissimos enim, at repudiandae et voluptates voluptatem adipisci? Eius fugiat tempore in fugit ullam. Aut architecto corrupti magnam natus esse voluptatibus, eius qui similique non, eum cum necessitatibus quasi. Expedita quo, iure suscipit assumenda dolores perspiciatis nam enim sequi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="album">
+        <div class="photo">
+            <img src="/panda 2.png" alt="">
+            <div class="details">
+                <h2>See Panda</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, saepe. Adipisci, accusantium, neque perferendis corporis obcaecati vitae sed necessitatibus exercitationem repellat aspernatur voluptatem iste temporibus hic in voluptas beatae. Ipsa aspernatur praesentium, quis magni consequuntur eum culpa repellat possimus aliquid. Vitae, animi a natus eligendi odit non nobis accusantium quas, deleniti corrupti porro assumenda deserunt voluptate vero ullam dolorem excepturi quam! Dignissimos enim, at repudiandae et voluptates voluptatem adipisci? Eius fugiat tempore in fugit ullam. Aut architecto corrupti magnam natus esse voluptatibus, eius qui similique non, eum cum necessitatibus quasi. Expedita quo, iure suscipit assumenda dolores perspiciatis nam enim sequi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="album">
+        <div class="photo">
+            <img src="/panda 2.png" alt="">
+            <div class="details">
+                <h2>See Panda</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, saepe. Adipisci, accusantium, neque perferendis corporis obcaecati vitae sed necessitatibus exercitationem repellat aspernatur voluptatem iste temporibus hic in voluptas beatae. Ipsa aspernatur praesentium, quis magni consequuntur eum culpa repellat possimus aliquid. Vitae, animi a natus eligendi odit non nobis accusantium quas, deleniti corrupti porro assumenda deserunt voluptate vero ullam dolorem excepturi quam! Dignissimos enim, at repudiandae et voluptates voluptatem adipisci? Eius fugiat tempore in fugit ullam. Aut architecto corrupti magnam natus esse voluptatibus, eius qui similique non, eum cum necessitatibus quasi. Expedita quo, iure suscipit assumenda dolores perspiciatis nam enim sequi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="album">
+        <div class="photo">
+            <img src="/panda 2.png" alt="">
+            <div class="details">
+                <h2>See Panda</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, saepe. Adipisci, accusantium, neque perferendis corporis obcaecati vitae sed necessitatibus exercitationem repellat aspernatur voluptatem iste temporibus hic in voluptas beatae. Ipsa aspernatur praesentium, quis magni consequuntur eum culpa repellat possimus aliquid. Vitae, animi a natus eligendi odit non nobis accusantium quas, deleniti corrupti porro assumenda deserunt voluptate vero ullam dolorem excepturi quam! Dignissimos enim, at repudiandae et voluptates voluptatem adipisci? Eius fugiat tempore in fugit ullam. Aut architecto corrupti magnam natus esse voluptatibus, eius qui similique non, eum cum necessitatibus quasi. Expedita quo, iure suscipit assumenda dolores perspiciatis nam enim sequi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="album">
+        <div class="photo">
+            <img src="/panda 2.png" alt="">
+            <div class="details">
+                <h2>See Panda</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, saepe. Adipisci, accusantium, neque perferendis corporis obcaecati vitae sed necessitatibus exercitationem repellat aspernatur voluptatem iste temporibus hic in voluptas beatae. Ipsa aspernatur praesentium, quis magni consequuntur eum culpa repellat possimus aliquid. Vitae, animi a natus eligendi odit non nobis accusantium quas, deleniti corrupti porro assumenda deserunt voluptate vero ullam dolorem excepturi quam! Dignissimos enim, at repudiandae et voluptates voluptatem adipisci? Eius fugiat tempore in fugit ullam. Aut architecto corrupti magnam natus esse voluptatibus, eius qui similique non, eum cum necessitatibus quasi. Expedita quo, iure suscipit assumenda dolores perspiciatis nam enim sequi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="album">
+        <div class="photo">
+            <img src="/panda 2.png" alt="">
+            <div class="details">
+                <h2>See Panda</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, saepe. Adipisci, accusantium, neque perferendis corporis obcaecati vitae sed necessitatibus exercitationem repellat aspernatur voluptatem iste temporibus hic in voluptas beatae. Ipsa aspernatur praesentium, quis magni consequuntur eum culpa repellat possimus aliquid. Vitae, animi a natus eligendi odit non nobis accusantium quas, deleniti corrupti porro assumenda deserunt voluptate vero ullam dolorem excepturi quam! Dignissimos enim, at repudiandae et voluptates voluptatem adipisci? Eius fugiat tempore in fugit ullam. Aut architecto corrupti magnam natus esse voluptatibus, eius qui similique non, eum cum necessitatibus quasi. Expedita quo, iure suscipit assumenda dolores perspiciatis nam enim sequi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="album">
+        <div class="photo">
+            <img src="/panda 2.png" alt="">
+            <div class="details">
+                <h2>See Panda</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, saepe. Adipisci, accusantium, neque perferendis corporis obcaecati vitae sed necessitatibus exercitationem repellat aspernatur voluptatem iste temporibus hic in voluptas beatae. Ipsa aspernatur praesentium, quis magni consequuntur eum culpa repellat possimus aliquid. Vitae, animi a natus eligendi odit non nobis accusantium quas, deleniti corrupti porro assumenda deserunt voluptate vero ullam dolorem excepturi quam! Dignissimos enim, at repudiandae et voluptates voluptatem adipisci? Eius fugiat tempore in fugit ullam. Aut architecto corrupti magnam natus esse voluptatibus, eius qui similique non, eum cum necessitatibus quasi. Expedita quo, iure suscipit assumenda dolores perspiciatis nam enim sequi.</p>
+            </div>
+        </div>
+    </div>
+    
+    
+</div>
+</body>
+</html>
